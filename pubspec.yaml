@@ -1,0 +1,50 @@
+name: raj_academy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  percent_indicator: ^4.2.2
+  google_fonts: ^6.1.0
+  file_picker: ^10.1.9
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+     - family: SFProText
+       fonts:
+         - asset: fonts/SF-Pro-Text-Regular.otf
+     - family: AktivGroteskCorp
+       fonts:
+         - asset: fonts/aktivgroteskcorp_regular.ttf
+     - family: Montserrat
+       fonts:
+         - asset: fonts/Montserrat-VariableFont_wght.ttf

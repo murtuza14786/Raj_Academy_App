@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332301412076",
+    "project_id": "raj-computer-academy",
+    "storage_bucket": "raj-computer-academy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332301412076:android:583d74635aeefa447267c9",
+        "android_client_info": {
+          "package_name": "com.example.raj_academy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYr07A58NImd9Vs2x4CKt3g-otr_aAj4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
