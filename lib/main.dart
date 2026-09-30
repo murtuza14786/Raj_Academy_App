@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 // Your existing imports
-import 'package:raj_academy/Screen12.dart';
-import 'package:raj_academy/Screen6.dart';
-import 'package:raj_academy/Screen4.dart';
-import 'package:raj_academy/Screen8.dart';
+import 'package:raj_academy/screen_12.dart';
+import 'package:raj_academy/screen_6.dart';
+import 'package:raj_academy/screen_4.dart';
+import 'package:raj_academy/screen_8.dart';
 
-import 'Screen1.dart';
-import 'Screen13.dart';
-import 'Screen14.dart';
-import 'Screen2.dart';
-import 'Screen3.dart';
-import 'Screen5.dart';
-import 'Screen7.dart';
-import 'Screen9.dart';
+import 'screen_1.dart';
+import 'screen_13.dart';
+import 'screen_14.dart';
+import 'screen_2.dart';
+import 'screen_3.dart';
+import 'screen_5.dart';
+import 'screen_7.dart';
+import 'screen_9.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

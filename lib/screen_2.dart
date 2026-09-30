@@ -1,4 +1,6 @@
 // lib/Screen2.dart
+// ignore_for_file: deprecated_member_use, camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

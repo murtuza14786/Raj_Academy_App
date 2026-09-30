@@ -15,14 +15,14 @@ dependencies:
   http: ^1.4.0
   firebase_core: ^4.2.1
   firebase_auth: ^6.1.2
+  percent_indicator: ^4.2.5
+  google_fonts: ^8.2.1
+  file_picker: ^13.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.13.1
-  percent_indicator: ^4.2.2
-  google_fonts: ^6.1.0
-  file_picker: ^10.1.9
+  flutter_launcher_icons: ^0.14.4
   flutter_lints: ^6.0.0
 
 flutter_launcher_icons:

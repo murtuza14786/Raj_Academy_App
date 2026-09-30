@@ -74,27 +74,28 @@ class _newAdmissionState extends State<newAdmission> {
   File? selectedFile;
 
   void pickFile() async {
-    FilePickerResult? result = await FilePicker.platform.pickFiles(
-      type: FileType.image, // or FileType.any
-      allowMultiple: false,
+    PlatformFile? result = await FilePicker.pickFile(
+  type: FileType.image,
+);
+
+    if (result != null && result.path != null) {
+  File file = File(result.path!);
+  int sizeInBytes = await file.length();
+
+  if (sizeInBytes <= 1024 * 1024) {
+    // File is under 1MB
+    setState(() {
+      selectedFile = file;
+    });
+  } else {
+    // Show warning
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text("File size must be under 1MB"),
+      ),
     );
-
-    if (result != null) {
-      File file = File(result.files.single.path!);
-      int sizeInBytes = await file.length();
-
-      if (sizeInBytes <= 1024 * 1024) {
-        // File is under 1MB
-        setState(() {
-          selectedFile = file;
-        });
-      } else {
-        // Show warning
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text("File size must be under 1MB")),
-        );
-      }
-    }
+   }
+  }
   }
 
   final Map<String, bool> days = {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:raj_academy/Screen2.dart';
+import 'package:raj_academy/screen_2.dart';
 import 'dart:math';
 
 class GradientCircularLoader extends StatelessWidget {
